@@ -45,6 +45,10 @@ export const Sidebar = (props) => {
               className={
                 location.pathname == "/home"
                   ? "SidebarItem ActiveTab"
+                  : location.pathname == "/"
+                  ? "SidebarItem ActiveTab"
+                  : location.pathname == ""
+                  ? "SidebarItem ActiveTab"
                   : "SidebarItem"
               }
               onClick={() => {
