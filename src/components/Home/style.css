@@ -1,0 +1,58 @@
+.HomePage {
+  width: 85vw;
+  height: 100vh;
+  padding-left: 25px;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.HomePageHeaderLeft {
+  display: flex;
+}
+.HomePageItems {
+  width: calc(100% - 350px);
+  margin-top: 14px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 70%;
+  border-radius: 5px;
+}
+.HomePageItems::-webkit-scrollbar {
+  display: none;
+}
+
+.HomePageItem {
+  width: 100%;
+  margin-top: 15px;
+  min-height: 52px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 14px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.HomePageItemComplete {
+  min-width: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #2564cf;
+  margin-right: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.HomePageItemText {
+  width: 90%;
+  word-break: break-all;
+}
+.HomePageStarIcon {
+  margin-right: 30px;
+  margin-top: 5px;
+}
+@media screen and (max-width: 770px) {
+  .HomePageItems {
+    width: 240px;
+  }
+}

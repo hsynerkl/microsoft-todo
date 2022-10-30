@@ -1,0 +1,99 @@
+.HamburgerMenuOff {
+  font-size: 20px;
+  padding-left: 15px;
+  padding-top: 23px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  display: inline-block;
+}
+.HamburgerMenuOn {
+  position: relative;
+  height: 100vh;
+  background-color: #ffffff;
+  min-width: 290px;
+  max-width: 290px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.HamburgerMenuBtn {
+  padding-left: 25px;
+  padding-top: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.SidebarItem {
+  width: 100%;
+  height: 44px;
+  align-items: center;
+  display: flex;
+}
+.SidebarItem:hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+.SidebarItemContent {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+}
+.SidebarItemIcon {
+  font-size: 20px;
+  margin-right: 15px;
+  margin-top: 6px;
+  color: "#292827";
+  margin-left: 10px;
+}
+.SidebarItemText {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  color: "#292827";
+}
+.SidebarItemContainer {
+  margin-top: 10px;
+}
+.IconDesign {
+  font-size: 18px !important;
+  font-weight: 100 !important;
+}
+.NewListInput {
+  min-width: 50px;
+  max-width: 100px;
+  border: 0px;
+  background-color: transparent;
+}
+.NewListInput:focus {
+  outline: none;
+  color: "#548deb" !important;
+}
+.NewListInput::placeholder {
+  color: "#548deb" !important;
+}
+.SidebarBottomContainer {
+  width: 100%;
+  position: absolute;
+  bottom: 47px;
+}
+.SidebarBottom {
+  display: flex;
+}
+.SidebarBottomItem {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 55px;
+}
+.SidebarBottomItem:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+.ActiveTab {
+  border-left: 4px solid #3b9beb;
+  background-color: #abd7fa;
+}
+.ActiveTab:hover {
+  background-color: #abd7fa;
+}

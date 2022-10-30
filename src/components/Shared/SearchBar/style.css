@@ -1,0 +1,39 @@
+.SearchBar {
+  width: 400px;
+  background-color: white;
+  display: flex;
+  border-radius: 3px;
+}
+.SearchBar:hover {
+  background-color: whitesmoke;
+  width: 402px;
+  cursor: pointer;
+}
+.SearchBar-SearchIcon {
+  width: 20px;
+  color: #1c76c5;
+  display: flex;
+  align-items: center;
+  margin-left: 7px;
+}
+
+.SearchBar-Input {
+  width: 350px;
+  height: 30px;
+  border: 0px solid;
+}
+.SearchBar-Input:hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+.SearchBar-Input:focus {
+  outline: none;
+}
+.SearchBarDeleteIcon {
+  margin-top: -3px;
+}
+@media screen and (max-width: 785px) {
+  .SearchBar {
+    display: none;
+  }
+}
